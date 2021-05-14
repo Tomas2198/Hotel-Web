@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <title>Hotel Luxurious</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section id="home" class="justify-content-center ">
+        <div class="row">
+            <div id="overlay"></div>
+            <div id="header" class="container text-black-50 text-center ">
+                <h1 class="display-1">HOTEL LUXURIOUS</h1>
+                <h3 class="display-5 mb-5 font-weight-bold">COMFORT STYLE AND SUBSTANCE</h3>
+            </div>
+        </div>
+        <div class="col-10 m-auto">
+            <div class="row">
+                <form style="z-index: 5;">
+                    <div class="form-group">
+                        <label for="ControlInput1">Check-in date</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="MM/DD/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="ControlSelect1">Duration of stay</label>
+                        <select class="form-control" id="ControlSelect1">
+                            <option>1 night</option>
+                            <option>2 nights</option>
+                            <option>3 nights</option>
+                            <option>4 nights</option>
+                            <option>5 nights</option>
+                            <option>more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="ControlSelect2">Number of guests</label>
+                        <select class="form-control input-group-sm" id="ControlSelect2">
+                            <option>1 guest</option>
+                            <option>2 guests</option>
+                            <option>3 guests</option>
+                            <option>4 guests</option>
+                            <option>5 guests</option>
+                            <option>more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="ControlSelect3">Type of suite</label>
+                        <select class="form-control" id="eControlSelect3">
+                            <option>standard</option>
+                            <option>economy</option>
+                            <option>premium</option>
+                            <option>deluxe</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <button type="button" class="btn btn-outline-dark ml-5" data-target="#">
+                        Book now
+                    </button>
+                </form>
+                <button type="button" class="btn btn-primary ml-5 align-self-center" data-toggle="modal" data-target="#eampleModal"
+                style="z-index: 6;">
+                Launch interior preview
+            </button>
+            </div>
+        </div>
+        <div class="modal fade" id="eampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hotel interior</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                            <iframe class="embed-responsive-item" src="videos/hotel.mp4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar sticky-top position-sticky navbar-expand-md navbar-light navbar-nav-scroll bg-light">
+        <a href="#" class="navbar-brand">
+            <h3 class="mb-0">Hotel Luxurious</h3>
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link text-primary font-weight-bold">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#history" class="nav-link text-primary font-weight-bold">History</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#prices" class="nav-link text-primary font-weight-bold">Prices</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link text-primary font-weight-bold">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link text-primary font-weight-bold">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="animation.html" target="_blank" class="nav-link text-primary font-weight-bold">Icon</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="history">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm border border-secondary m-2">
+                    The Hotel luxurious opened November 9, 2015.The hotel moves the surounding properties closer to the city. Tenants include upscale stores such as Balmain, Celine, Kiton, Stella McCartney and restaurants including Urth Caffé and Cipriani. Luxurious paradise park was planned to be built on the site of a golf course adjacent to the hotel and Nerisafik. The 20-acre lagoon, boardwalk, waterfront meeting space, and other features was expected to draw additional traffic to the hotel. The project completed in November 2019. The hotel also revamped its 18-hole championship golf course, which reopened in October 2012.
+
+
+                </div>
+                <div class="col-sm border border-secondary m-2">
+                    Hotel Luxurious holds more Forbes Travel Guide Five-Star awards than any other resort or casino in the world, and in 2020 were named the largest and second-largest FTG Five-Star resorts in the world, respectively. Luxurious also made Forbes Award history by earning five-star ratings in every category: Hotel,Restaurant, and Spa. It has held the distinction of winning the award in the hotel sector every year since 2016. The resort has also earned AAA five diamond, Mobil five-star, Forbes five-star, and Zagat Survey Top Worlwide. Hotel ratings, as well as one Michelin star for its restaurant Wing Lei. It is considered to be one of the finest hotels in the world.
+                </div>
+                <div class="col-sm m-2">
+                    <img src="images/hotel2.jpg" class="img-fluid img-thumbnail col-sm-2" style="max-width: 700px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="prices">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Economy suite</h5>
+                            <p class="card-text">price 1-night: 1000$
+                            </p>
+                            <a class="btn btn-outline-dark" data-toggle="popover" title="Details"
+                                data-content="Economy suite for a price">More Details</a>
+
+                            <img src="images/economy.jpg" class="img-fluid img-thumbnail col-sm-2" style="max-width: 400px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Standard suite</h5>
+                            <p class="card-text">price 1-night: 2000$
+                            </p>
+                            <a class="btn btn-outline-dark" data-toggle="popover" title="Details"
+                                data-content="standard suite for a price">More Details</a>
+
+                            <img src="images/standard.jpg" class="img-fluid img-thumbnail col-sm-2" style="max-width: 400px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium suite</h5>
+                            <p class="card-text">price 1-night: 5000$
+                            </p>
+                            <a class="btn btn-outline-dark" data-toggle="popover" title="Details"
+                                data-content="Premium suite for a price">More Details</a>
+
+                            <img src="images/premium.jpg" class="img-fluid img-thumbnail col-sm-2" style="max-width: 400px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe suite</h5>
+                            <p class="card-text">price 1-night: 10000$
+                            </p>
+                            <a class="btn btn-outline-dark" data-toggle="popover" title="Details"
+                                data-content="Deluxe suite for a price">More Details</a>
+
+                            <img src="images/deluxe.jpg" class="img-fluid img-thumbnail col-sm-2" style="max-width: 400px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="m-auto">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/im1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Screen 1</h5>
+                            <p>A beautiful picture depicting the surroundings of our facility
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/im2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Screen 2</h5>
+                            <p>Another pretty picture that lets guests know what to expect</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/im3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Screen 3</h5>
+                            <p>It is impossible to leave our hotel without feeling the stress relief</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/im4.jpg" alt="Fourth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Screen 4</h5>
+                            <p>Yet another view of our hotel surroundings, book now and start relaxing</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="m-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="#12"><i class="fab fa-facebook">facebook adress</i></a>
+                        <a href="#12"><i class="fab fa-twitter">twitter adress</i></a>
+                        <a href="#12"><i class="fab fa-instagram">instagram adress</i></a>
+                    </div>
+                    <div class="col-sm">
+                        <div class="container mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950.808166042563!2d-51.71463148844251!3d64.18071388353361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ea20dd0797d0cbb%3A0xb5a6a2d15bbe95f8!2sNerisarfik!5e0!3m2!1scs!2scz!4v1620644820016!5m2!1scs!2scz"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Contact us</h4>
+                        <p>Adress: Nerisafik, Greenland</p>
+                        <p>Tel.: 121 212 453</p>
+                        <p>E-mail.: hotel.luxury@mail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+
+</html>
